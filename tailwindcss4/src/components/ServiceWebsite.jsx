@@ -139,9 +139,9 @@ const ServiceWebsite = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50" style={{ width: '100vw', overflowX: 'hidden' }}>
       {/* Header */}
-      <header className="bg-white shadow-sm">
+      <header className="bg-white shadow-sm style={{ width: '100%' }}">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
@@ -157,7 +157,7 @@ const ServiceWebsite = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20" style={{ width: '100%' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div 
             id="hero-content"
@@ -305,7 +305,7 @@ const ServiceWebsite = () => {
       </section>
 
       {/* Contact Form */}
-      <section id="contact" className="py-16 bg-blue-600 text-white">
+      <section id="contact" className="py-16 bg-blue-600 text-white" style={{ width: '100%' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div 
             id="contact-header"
