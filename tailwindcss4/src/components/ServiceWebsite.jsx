@@ -149,9 +149,10 @@ const ServiceWebsite = () => {
               <h1 className="text-1xl font-bold text-gray-800 pl-4">Bryce's Services</h1>
             </div>
             <div className="hidden md:flex items-center space-x-6">
-              <a href="#services" className="text-gray-600 hover:text-blue-600 transition-colors">Services</a>
-              
-        <a href="#contact" className="bg-white text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors transform hover:scale-105">
+              <a href="#services" className="bg-white text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors transform hover:scale-105">
+                Services
+              </a>
+              <a href="#contact" className="bg-white text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors transform hover:scale-105">
                 Get Quote
               </a>
             </div>
