@@ -146,7 +146,7 @@ const ServiceWebsite = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
               <Truck className="w-8 h-8 text-blue-600" />
-              <h1 className="text-2xl font-bold text-gray-900">Bryce's Services</h1>
+              <h1 className="text-1xl font-bold text-gray-800 pl-4">Bryce's Services</h1>
             </div>
             <div className="hidden md:flex items-center space-x-6">
               <a href="#services" className="text-gray-600 hover:text-blue-600 transition-colors">Services</a>
@@ -174,7 +174,7 @@ const ServiceWebsite = () => {
               <a href="#contact" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors transform hover:scale-105">
                 Get Free Quote
               </a>
-              <a href="tel:+1234567890" className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors transform hover:scale-105">
+             <a href="#contact" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors transform hover:scale-105">
                 Call Now
               </a>
             </div>
@@ -436,15 +436,15 @@ const ServiceWebsite = () => {
                 <div className="space-y-4">
                   <div className="flex items-center transform hover:translate-x-2 transition-transform">
                     <Mail className="w-6 h-6 mr-3" />
-                    <a href="mailto:brycebroomeinquiries@gmail.com" className="text-blue-100 hover:text-white">
+                    <span className="text-blue-100">
                       brycebroomeinquiries@gmail.com
-                    </a>
+                    </span>
                   </div>
                   <div className="flex items-center transform hover:translate-x-2 transition-transform">
                     <Phone className="w-6 h-6 mr-3" />
-                    <a href="tel:+1234567890" className="text-blue-100 hover:text-white">
-                      Call for immediate response
-                    </a>
+                  <span className="text-blue-100">
+                    Call for immediate response
+                  </span>
                   </div>
                   <div className="flex items-center transform hover:translate-x-2 transition-transform">
                     <MapPin className="w-6 h-6 mr-3" />
