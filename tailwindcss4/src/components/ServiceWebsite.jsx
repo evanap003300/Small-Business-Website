@@ -224,14 +224,26 @@ const ServiceWebsite = () => {
                 </div>
               </div>
             </div>
-            <div 
+            <div
               id="pressure-washing-image"
-              data-animate
-              className={`bg-gray-200 rounded-lg h-64 md:h-96 flex items-center justify-center ${getAnimationClass('pressure-washing-image', 'fade-left')}`}
+             data-animate
+            className={`grid grid-cols-2 gap-4 ${getAnimationClass('pressure-washing-image', 'fade-left')}`}
             >
-              <div className="text-center text-gray-500">
-                <Droplets className="w-16 h-16 mx-auto mb-4" />
-                <p>Before/After Photos Coming Soon</p>
+              <div className="rounded-lg overflow-hidden shadow-md">
+                <img
+                  src={before_img}
+                  alt="Before pressure washing"
+                  className="w-full h-full object-cover"
+                />
+              <p className="text-center text-sm text-gray-600 mt-2">Before</p>
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-md">
+                <img
+                  src={after_img}
+                  alt="After pressure washing"
+                  className="w-full h-full object-cover"
+                />
+                <p className="text-center text-sm text-gray-600 mt-2">After</p>
               </div>
             </div>
           </div>
