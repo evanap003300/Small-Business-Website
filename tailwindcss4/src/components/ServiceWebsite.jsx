@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Star, Truck, Trash2, Droplets, Package, Wrench, Phone, Mail, MapPin, CheckCircle } from 'lucide-react';
+import before_img from './images/before.webp'
+import after_img from './images/after.webp'
+
 
 const ServiceWebsite = () => {
   const [formData, setFormData] = useState({
