@@ -93,7 +93,7 @@ const ServiceWebsite = () => {
     {
       icon: <Droplets className="w-8 h-8" />,
       title: "Pressure Washing",
-      description: "Professional cleaning for driveways, decks, siding, and more. We bring the power to restore your surfaces.",
+      description: "Professional cleaning for driveways, decks, and more. We bring the power to restore your surfaces.",
       featured: true
     },
     {
@@ -149,7 +149,7 @@ const ServiceWebsite = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
               <Truck className="w-8 h-8 text-blue-600" />
-              <h1 className="text-1xl font-bold text-gray-800 pl-4">Bryce's Services</h1>
+              <h1 className="text-1xl font-bold text-gray-800 pl-4">Lowcountry Labor Co.</h1>
             </div>
             <div className="hidden md:flex items-center space-x-6">
               <a href="#services" className="bg-white text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors transform hover:scale-105">
@@ -203,7 +203,7 @@ const ServiceWebsite = () => {
                 <h3 className="text-3xl font-bold text-gray-900">Pressure Washing Specialists</h3>
               </div>
               <p className="text-lg text-gray-600 mb-6">
-                Transform your property with our professional pressure washing services. We clean driveways, decks, siding, fences, and more with commercial-grade equipment and eco-friendly solutions.
+                Transform your property with our professional pressure washing services. We clean driveways, decks, fences, and more with commercial-grade equipment and eco-friendly solutions.
               </p>
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="flex items-center">
@@ -212,7 +212,7 @@ const ServiceWebsite = () => {
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
-                  <span className="text-gray-700">House Siding</span>
+                  <span className="text-gray-700">Outdoor furniture</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
@@ -459,12 +459,12 @@ const ServiceWebsite = () => {
                   <div className="flex items-center transform hover:translate-x-2 transition-transform">
                     <Phone className="w-6 h-6 mr-3" />
                   <span className="text-blue-100">
-                    Call for immediate response
+                    +1 (843) 812-7165
                   </span>
                   </div>
                   <div className="flex items-center transform hover:translate-x-2 transition-transform">
                     <MapPin className="w-6 h-6 mr-3" />
-                    <span className="text-blue-100">Locally owned & operated</span>
+                    <span className="text-blue-100">Bluffton and Hilton Head SC</span>
                   </div>
                 </div>
               </div>
@@ -472,10 +472,9 @@ const ServiceWebsite = () => {
               <div className="bg-blue-700 rounded-lg p-6 transform hover:scale-105 transition-transform">
                 <h5 className="font-bold text-lg mb-3">Why Choose Us?</h5>
                 <ul className="space-y-2 text-blue-100 text-sm">
-                  <li>• Licensed and insured</li>
-                  <li>• Same-day quotes available</li>
+                   <li>• Same-day quotes available</li>
                   <li>• Flexible scheduling</li>
-                  <li>• Fair, transparent pricing</li>
+                  <li>• Fair pricing</li>
                   <li>• 100% satisfaction guarantee</li>
                 </ul>
               </div>
@@ -493,7 +492,7 @@ const ServiceWebsite = () => {
               <span className="text-lg font-semibold">Bryce's Services</span>
             </div>
             <p className="text-gray-400 text-sm">
-              Professional local services you can trust. Licensed, insured, and ready to help.
+              Professional local services you can trust. Eager and ready to help.
             </p>
             <div className="mt-4 pt-4 border-t border-gray-800">
               <p className="text-gray-500 text-xs">
