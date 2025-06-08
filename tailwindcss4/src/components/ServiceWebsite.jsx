@@ -78,15 +78,34 @@ const ServiceWebsite = () => {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // For now, just log the data - you'll connect this to Formspree or similar
-    console.log('Form submitted:', formData);
-    alert('Thank you! We\'ll get back to you within 24 hours.');
-    // Reset form
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  const endpoint = 'https://formspree.io/f/mwpblvbn'; // Replace with your Formspree endpoint
+
+  const response = await fetch(endpoint, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Accept: 'application/json',
+    },
+    body: JSON.stringify(formData),
+  });
+
+  if (response.ok) {
+    alert("✅ Thank you! We’ll get back to you soon.");
     setFormData({
-      name: '', email: '', phone: '', service: '', description: '', budget: '', location: ''
+      name: '',
+      email: '',
+      phone: '',
+      service: '',
+      description: '',
+      budget: '',
+      location: '',
     });
+    } else {
+      alert("❌ Oops! Something went wrong.");
+    }
   };
 
   const services = [
