@@ -508,14 +508,14 @@ const ServiceWebsite = () => {
           <div className="text-center">
             <div className="flex items-center justify-center space-x-2 mb-4">
               <Truck className="w-6 h-6" />
-              <span className="text-lg font-semibold">Bryce's Services</span>
+              <span className="text-lg font-semibold">Lowcountry Labor Co.</span>
             </div>
             <p className="text-gray-400 text-sm">
               Professional local services you can trust. Eager and ready to help.
             </p>
             <div className="mt-4 pt-4 border-t border-gray-800">
               <p className="text-gray-500 text-xs">
-                © 2025 Bryce's Services. All rights reserved.
+                © 2025 Lowcountry Labor Co. All rights reserved.
               </p>
             </div>
           </div>
