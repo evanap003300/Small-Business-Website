@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Star, Truck, Trash2, Droplets, Package, Wrench, Phone, Mail, MapPin, CheckCircle } from 'lucide-react';
-import before_img from './images/before.webp'
-import after_img from './images/after.webp'
+import { CheckCircle, Droplets, Mail, MapPin, Package, Phone, Star, Trash2, Truck, Wrench } from 'lucide-react';
+import { useEffect, useRef, useState } from 'react';
+import after_img from './images/after.webp';
+import before_img from './images/before.webp';
 
 
 const ServiceWebsite = () => {
@@ -144,18 +144,18 @@ const ServiceWebsite = () => {
 
   const testimonials = [
     {
-      name: "Sarah M.",
-      text: "Bryce did an amazing job pressure washing our deck and driveway. Looks brand new!",
+      name: "Judi C.",
+      text: "Bryce and Ryan were absolutely flawless with their moving skills and professionalism. I highly recommend them for any help you need!",
       rating: 5
     },
     {
-      name: "Mike R.",
-      text: "Quick, reliable, and fair pricing. Helped us move our furniture without any hassle.",
+      name: "Debbie W.",
+      text: "Bryce and his buddy, Brian, helped me move storage from Public Storage to Prime Storage [...] They were communicative. They were on time. They worked NON STOP ... literally no breaks for over four hours.",
       rating: 5
     },
     {
       name: "Jennifer L.",
-      text: "Cleaned up all our yard debris after the storm. Professional and thorough work.",
+      text: "They were kind, considerate, and professional. These young men are exceptional! Hire them!!!",
       rating: 5
     }
   ];
