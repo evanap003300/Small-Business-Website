@@ -13,7 +13,7 @@ A responsive and conversion-optimized marketing website built with React and Tai
 
 * **Frontend:** React, TypeScript, TailwindCSS
 * **Form Handling:** Formspree
-* **Hosting:** GitHub Pages / Netlify / Vercel (or specify where it’s hosted)
+* **Hosting:** Vercel 
 
 ## Impact
 
