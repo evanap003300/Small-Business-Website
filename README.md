@@ -17,6 +17,6 @@ A responsive and conversion-optimized marketing website built with React and Tai
 
 ## Impact
 
-* Live website helped generate 10+ client leads per month through the contact form.
+* Live website which helps generate 10+ client leads per month through the contact form.
 * Provided the business with its first online presence, increasing customer trust and accessibility.
 * Built in collaboration with a real client to reflect their branding, services, and messaging.
